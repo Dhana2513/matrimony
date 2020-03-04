@@ -50,6 +50,7 @@
 		$image_array_2 = explode(",", $image_array_1[1]);
 
 
+		// echo exec('whoami');
 		$data = base64_decode($image_array_2[1]);
 		$val = "1";
 		$imageName = $name .'.png';

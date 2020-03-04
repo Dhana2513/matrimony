@@ -183,7 +183,7 @@
 			    </div>
 			  </div> 
 			  <a href="posts.php" class="nav_content">Posts</a>
-			  <a href="blog.php" class="nav_content" style="">Blog</a>
+			  <a href="blog.php" class="nav_content" >Blog</a>
 			  <!--<a href="#" onclick="openModal1()" class="nav_content">Log in</a>
 			  <a href="#" onclick="openModal()" class="nav_content">Registration</a>
 			  <a href="help.php" class="nav_content">Help</a>-->
@@ -203,7 +203,7 @@
 		</div>
 		
 
-		<div style="" class="row blog_sec">
+		<div  class="row blog_sec">
 			<div style="margin-top: 60px;" class="col-md-2 sidenav">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -280,7 +280,7 @@
 
 			?>
 			<div class="col-md-8" style="margin: 0; padding: 0; height: 600px;">
-				<div class="chat_window" style="">
+				<div class="chat_window" >
 		            <div class="top_menu">
 		                <div class="buttons">
 		                    <img style="margin-top: -12px; margin-left: -5px; " src="dp/<?php echo $imageName;?>" width="50" class="rounded-circle">
@@ -405,7 +405,7 @@ $(document).ready(function(){
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 				<div class="col-md-6" style="padding: 10px 10px;">
-					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></small></b></h6>
+					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></small></b></h6>
 				</div>
 			</div>
 		</div>

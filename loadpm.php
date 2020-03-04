@@ -27,12 +27,12 @@
 
             ?>
             
-                <li class="chat1"><h5 style=""><?php echo $us_name; ?>: <b><?php echo $message; ?></b></h5></li>
+                <li class="chat1"><h5 ><?php echo $us_name; ?>: <b><?php echo $message; ?></b></h5></li>
                 <?php  
                         }
                         else{
                 ?>
-                <li class="chat2"><h5 style=""><?php echo $receiver_name ; ?>: <b><?php echo $message; ?></b></h5></li>
+                <li class="chat2"><h5 ><?php echo $receiver_name ; ?>: <b><?php echo $message; ?></b></h5></li>
                 <?php
                             
                         }

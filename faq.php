@@ -350,12 +350,12 @@
 		      
 		    </div>
 		  </div>
-		  <div class="col-md-9" style="">
+		  <div class="col-md-9" >
 		    <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px; padding: 20px; width: 98%; margin:0 auto;background: white;  border: 0.5px solid #f2f2f2;border-radius: 4px;">
-		      <div style="" class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+		      <div  class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 		      	<h4 style="color: #0275D8;">Questions and Answers - FAQ:</h4>
 		      	<br>
-		      	<h5 style="color: #000;"><b>১) কিভাবে Registration করবেন? </b></h5>
+		      	<!-- <h5 style="color: #000;"><b>১) কিভাবে Registration করবেন? </b></h5>
 		      	<h5 style="color: #000;">Registration করতে আমাদের ওয়েবসাইট www.biye24.com.bd এ গিয়ে ইমেইল ও ইউজার আইডি এবং ৬-১২ ডিজিট এর পাসওয়ার্ড দিয়ে Registration করতে হবে। এরপর নিজ তথসমূহ এবং পছন্দের তথ্যগুলো পূরণ করে খুঁজে নিন নিজের মনের মত Male/Female।</h5>
 
 		      	<h5 style="color: #000;"><b>২) কিভাবে id ব্যবহার করতে হয়?  </b></h5>
@@ -390,9 +390,47 @@
 		      	<h5 style="color: #000;">প্রোফাইল আপনার মনের সাথে মিলে গেলে আপনি সরাসরি  মেসেজ দিয়ে যোগাযোগ  করতে  পারেন।</h5>
 
 		      	<h5 style="color: #000;"><b>১১) কী কী কারণে আমার অ্যাকাউন্ট বন্ধ হতে পারে?   </b></h5>
-		      	<h5 style="color: #000;">ইউজার id ব্যবহার করে কোন অসৎ কাজের প্রমাণ পাওয়া গেলে অথবা অকারনে কাউকে বিরক্তের অভিযোগ পাওয়া গেলে আপনার অ্যাকাউন্ট ডিলিট করে দেওয়া হবে। </h5>
+				  <h5 style="color: #000;">ইউজার id ব্যবহার করে কোন অসৎ কাজের প্রমাণ পাওয়া গেলে অথবা অকারনে কাউকে বিরক্তের অভিযোগ পাওয়া গেলে আপনার অ্যাকাউন্ট ডিলিট করে দেওয়া হবে। </h5> -->
+				  
 
-		      	<h6 style="text-align: center; color: #00A2E8;">আরও জানতে</h6>
+				  <h5 style="color: #000;"><b>How to register? </b></h5>
+		      	<h5 style="color: #000;">To register, we have to register on our website www.biye24.com.bd with email and user ID and password of 8-12 digits. Then fill in your information and favorite information to find out your mind Male / Female.</h5>
+
+		      	<h5 style="color: #000;"><b>2) How to use id?  </b></h5>
+		      	<h5 style="color: #000;">First create your profile by registering. Find Pratner based on your preferences. If someone likes, go to his id to see the full biodata and contact Messenger.</h5>
+
+		      	<h5 style="color: #000;"><b>3) Who else can register my biodata without me? </b></h5>
+		      	<h5 style="color: #000;">Without your father, mother, brother, sister, friends and relatives you can create accounts, but you will have to open your name and information during registration.</h5>
+
+		       	<h5 style="color: #000;"><b>5) How much do I have to pay for registration?  </b></h5>
+		      	<h5 style="color: #000;">Registration is completely free. You don't have to pay anywhere.</h5>
+
+		       	<h5 style="color: #000;"><b>3) What are our main features?  </b></h5>
+		      	<ul>
+		      		<li style="color: #000;"><h5>Most important to us is the choice of Male-Female and their families. Our work is based on their well-being.</h5></li>
+		      		<li style="color: #000;"><h5>Male-Female can create biodata manually. Again, their parents, mothers, brothers and sisters can create biodata.</h5></li>
+		      		<li style="color: #000;"><h5>Along with the mill, the emphasis is on privacy. At first Male-Female can see some of the main attractions of their favorite people. You can later view the entire biodata, including images, with its ID.  </h5></li>
+		      		
+		      	</ul>
+		      	<h5 style="color: #000;"><b>3) Can I mention my email, phone number anywhere else without this proper location? </b></h5>
+		      	<h5 style="color: #000;">No You can use the mobile name, email address and Facebook ID only where you are asked.</h5>
+
+		      	<h5 style="color: #000;"><b>3) Why am I being encouraged to verify? </b></h5>
+		      	<h5 style="color: #000;">You are encouraged to make a verification to increase your credibility. Which will attract everyone to you and help you get the desired Male or Female.</h5>
+
+		      	<h5 style="color: #000;"><b>3) How important is it to give voter ID or birth registration number?</b></h5>
+		      	<h5 style="color: #000;">The voter ID or birth registration number you provided in Boydata will increase your credibility and help prove the truth of all your information.</h5>
+
+		      	<h5 style="color: #000;"><b>3) Can I change my preferences? </b></h5>
+		      	<h5 style="color: #000;">You can change your preferences at any time. Your match will be shown accordingly.</h5>
+
+		      	<h5 style="color: #000;"><b>3) How to communicate with users?</b></h5>
+		      	<h5 style="color: #000;">You can communicate directly with the message when the profile matches your mind.</h5>
+
+		      	<h5 style="color: #000;"><b>3) What are the reasons why my account may be closed?   </b></h5>
+		      	<h5 style="color: #000;">Your account will be deleted if you find evidence of a malicious act using the user id or because of the harassment of someone else. </h5>
+
+		      	<h6 style="text-align: center; color: #00A2E8;">Learn More</h6>
 		      	<center><button type="button" class="btn btn-danger">Contact Us</button></center>
 		      </div>
 		      
@@ -688,7 +726,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>

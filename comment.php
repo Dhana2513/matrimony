@@ -215,16 +215,16 @@
 		</div>
 		
 
-		<div style="" class="row blog_sec">
+		<div  class="row blog_sec">
 			<div style="margin-top: 60px;" class="col-md-2 sidenav">
 
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center">
-				    <h5><a href="blog.php" class="sidnav_a" style="">
+				    <h5><a href="blog.php" class="sidnav_a" >
 					সকল পোস্টসমূহ</a></h5>
 				  </li>
 				  <li class="list-group-item d-flex justify-content-between align-items-center">
-				    <h5><a href="posts.php" class="sidnav_a" style="">নির্বাচিত পোস্টসমূহ</a></h5>
+				    <h5><a href="posts.php" class="sidnav_a" >নির্বাচিত পোস্টসমূহ</a></h5>
 				  </li>
 				  
 				</ul>
@@ -300,13 +300,13 @@
 				</div>
 
 				<div class="row" style="padding: 15px 5px;">
-					<div class="col-md-5" style="">
+					<div class="col-md-5" >
 						<img class="img-thumbnail" src="image/<?php echo $image; ?>" width="280">
 					</div>
 					<div class="col-md-7" style="padding: 10px;">
 						
 						<h4 style="color: #7f7f7f; font-weight: bold;">"<?php if(!empty($title)){echo $title;} ?>"</h4>
-						<h5 style="" id="your-div-id"><?php echo $content; ?>
+						<h5  id="your-div-id"><?php echo $content; ?>
 						</h5>
 					</div>
 				</div>
@@ -354,7 +354,7 @@
 					<div class=""></div>
 					<div class="" style="padding: 5px;">
 						<h4 style="color: #7f7f7f; font-weight: bold;">"<?php if(!empty($title)){echo $title;} ?>"</h4>
-						<h5 style="" id="your-div-id"><?php echo $content; ?>
+						<h5  id="your-div-id"><?php echo $content; ?>
 						</h5>
 					</div>
 				</div>
@@ -719,7 +719,7 @@ $(document).ready(function(){
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 				<div class="col-md-6" style="padding: 10px 10px;">
-					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></small></b></h6>
+					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></small></b></h6>
 				</div>
 			</div>
 		</div>

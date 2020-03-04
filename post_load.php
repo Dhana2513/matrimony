@@ -56,14 +56,14 @@
 	</div>
 
 	<div class="row" style="padding: 15px 5px;">
-		<div class="col-md-5" style="">
+		<div class="col-md-5" >
 			<img class="img-thumbnail" src="image/<?php echo $image; ?>" width="320">
 		</div>
 		<div class="col-md-7" style="padding: 10px;">
 			
 			<h4 style="color: #7f7f7f; font-weight: bold;">"<?php if(!empty($title)){echo $title;} ?>"</h4>
 			
-			<h5 style="" id=""><?php echo $content; if(strlen($content)>598){?>
+			<h5  id=""><?php echo $content; if(strlen($content)>598){?>
 			......<?php }?></h5>
 		</div>
 	</div>
@@ -115,7 +115,7 @@
 			
 			<h4 style="color: #7f7f7f; font-weight: bold;">"<?php if(!empty($title)){echo $title;} ?>"</h4>
 		
-			<h5 style="" id=""><?php echo $content; if(strlen($content)>598){?>
+			<h5  id=""><?php echo $content; if(strlen($content)>598){?>
 			......<?php }?></h5>
 			</h5>
 		</div>

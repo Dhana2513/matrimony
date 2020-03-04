@@ -350,11 +350,11 @@
 		      
 		    </div>
 		  </div>
-		  <div class="col-md-9" style="">
+		  <div class="col-md-9" >
 		    <div class="tab-content" id="v-pills-tabContent" style="min-height: 500px; padding: 20px; width: 98%; margin:0 auto;background: white;  border: 0.5px solid #f2f2f2;border-radius: 4px;">
-		      <div style="" class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-		      	<h4 style="color: #0275D8;">Servicesঃ</h4>
-		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  ফ্রি Registration ও ফ্রি সেবা।</h5>
+		      <div  class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+		      	<h4 style="color: #0275D8;">Services:</h4>
+		      	<!-- <h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  ফ্রি Registration ও ফ্রি সেবা।</h5>
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> বিয়ে সংক্রান্ত প্রয়োজনীয় মেসেজ আদান প্রদানের ব্যবস্থা।</h5>
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> সহজেই Male-Female পূর্নাঙ্গ বায়োডাটা।</h5>
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  ফ্রি নিজের বায়োডাটা তৈরীর ব্যবস্থা।</h5>
@@ -365,7 +365,20 @@
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  নিজস্ব প্রোফাইল তৈরী ও প্রয়োজনে পরিবর্তন কিংবা  বাতিলের ব্যবস্থা।</h5>
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> নিজের সুবিধা মত সার্চ দিয়ে সঙ্গী খুজে বের করা।</h5>
 		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> বিয়ে সংক্রান্ত সর্বশেষ খবরের সাথে যুক্ত থাকা।</h5>
-		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> এছাড়া বিয়ে সংক্রান্ত বৈধ যে কোন সমস্যার সার্বক্ষনিক সহায়তা।</h5>
+				  <h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> এছাড়া বিয়ে সংক্রান্ত বৈধ যে কোন সমস্যার সার্বক্ষনিক সহায়তা।</h5> -->
+				  
+				<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  Free Registration and Free Services.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Arrangements for exchanging the necessary messages regarding marriage.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Easily Male-Female Full Biodata.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  Free to create your own biodata.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Protecting Male-Female Privacy</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Support through Facebook Groups and Pages.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Benefits of expressing marriage opinions through the blog.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Especially arrangement for publication of marriage notice on an urgent basis.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i>  Creating your own profile and modifying or deleting it as needed.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Find a partner by searching at your own convenience.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Staying up to date on the latest wedding news.</h5>
+		      	<h5 style="color: #7f7f7f;"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Besides, universal support for any legal issues related to marriage.</h5>
 		      
 		      </div>
 		      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
@@ -663,7 +676,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>

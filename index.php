@@ -379,8 +379,8 @@
 	</div>
 	
 	<div style="width: 100%; margin-top: 73px;">
-		<div style="" class="section1 row">
-			<div class="slider col-md-7" style="">
+		<div  class="section1 row">
+			<div class="slider col-md-7" >
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -436,7 +436,7 @@
 
 			?>
 
-			<div class="login col-md-4" style="">
+			<div class="login col-md-4" >
 				<h3 style="color: #FF8D8D; text-align: center; font-family: 'Galada', cursive;">Congratulations,  <span style="color: #7F7F7F;"><?php echo $name;?></span></h3>
 				<center><img src="dp/<?php echo $imageName;?>" class="rounded-circle img-thumbnail" width="150"></center>
 				<hr>
@@ -452,11 +452,11 @@
 
 
 			?>
-			<div class="login col-md-4" style="">
+			<div class="login col-md-4" >
 				<form method="post" action="" id="lgform1">
 					<h3 style="color: #00A2E8;">Log in:</h3>
 					<label style="font-size: 20px; color: #202340;">Email / Mobile:</label>
-					<input type="text" style="" required id="Email" class="form-control" placeholder="example@gmail.com/019xxxxxxxx" autocomplete="off">
+					<input type="text"  required id="Email" class="form-control" placeholder="example@gmail.com/019xxxxxxxx" autocomplete="off">
 					<h6 id="xmail_error_message" style="color: red;"></h6>
 					<label style="font-size: 20px; margin-top: 17px; color: #202340;">Password:</label>
 					<input type="password" class="form-control" required id="Password" style="font-family: 'Bangla',sans-serif; font-size: 18px;" placeholder="**********">
@@ -802,7 +802,7 @@ $(document).ready(function(){
 <?php
 
 	?>
-		<div style="" class="section2">
+		<div  class="section2">
 			<h1 style="color: #00A2E8; font-size: 30px;text-align: center;">Smart, reliable, and easy solution for finding a pet
 			</h1>
 			<h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's first self-contained Bangla online wedding service. The simplest way to find a mate is biye24.com.bd and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at biye24.com.bd and enjoy something new.</h5>
@@ -819,7 +819,7 @@ $(document).ready(function(){
 			?>
 		</div>
 	</div>
-	<div class="p_sec3 row" style="">
+	<div class="p_sec3 row" >
 		<div class="section3 col-md-4" style="background: white; padding: 10px 25px;">
 			<h2 style="color: #00A2E8">Find a partner</h2>
 			<?php if(isset($_SESSION['user'])/* || isset($_COOKIE['user'])*/){
@@ -883,7 +883,7 @@ $(document).ready(function(){
 
 			
 			?>
-			<div style="" class="sp3 section3">
+			<div  class="sp3 section3">
 				<h2 style="color:#00A2E8; margin-bottom: 10px;">Most recent members:</h2>
 				<?php
 					$rm = mysqli_query($con, "SELECT * FROM tipshoi ORDER BY id DESC;");
@@ -923,7 +923,7 @@ $(document).ready(function(){
 					<img src="dp/<?php echo $imageName;?>" class="rounded-circle" width="70">
 				</div>
 				
-				<div class="" style="">
+				<div class="" >
 					<a href="profile.php?us1031gdh312k=<?php echo $user_id; ?>"><h5 style="color: #7f7f7f;"><?php echo $mem_name; ?></h5></a>
 					
 					<h6><?php echo $gender;?></h6>
@@ -992,7 +992,7 @@ $(document).ready(function(){
 					<img src="dp/<?php echo $imageName;?>" class="rounded-circle" width="70">
 				</div>
 				
-				<div class="" style="">
+				<div class="" >
 					<a href="#"  onclick="openModal1()"><h5 style="color: #7f7f7f;"><?php echo $mem_name; ?></h5></a>
 					
 					<h6><?php echo $gender;?></h6>
@@ -1026,7 +1026,7 @@ $(document).ready(function(){
 		</div>
 		<div class="section3 col-md-4" style="background: white; height: inherit; padding: 10px 17px;">
 			<h4 style="color: #00A2E8;">Let's take a look at how to complete Registration and Biodata at Marriage 20:</h4>
-			<iframe style="" width="100%" height="270" src="https://www.youtube.com/embed/jrowJhS35y0">
+			<iframe  width="100%" height="270" src="https://www.youtube.com/embed/jrowJhS35y0">
 			</iframe> 
 		</div>
 	</div>
@@ -1123,7 +1123,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>

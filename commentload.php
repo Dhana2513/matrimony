@@ -22,7 +22,7 @@
 			
 			<a href="profile.php?us1031gdh312k=<?php echo $user_id;?>" style="color: black;"><h6 style="font-weight: bold;"><?php echo $name;?></h6></a>
 			
-			<h6 style=""><?php echo $comment; ?></h6>
+			<h6 ><?php echo $comment; ?></h6>
 <?php
 			if($i < $count-1){
 ?>

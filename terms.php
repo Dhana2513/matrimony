@@ -412,9 +412,9 @@ require_once('db_connect.php');
 
 				</div>
 			</div>
-			<div class="col-md-9" style="">
+			<div class="col-md-9" >
 				<div class="tab-content" id="v-pills-tabContent" style="min-height: 500px; padding: 20px; width: 98%; margin:0 auto;background: white;  border: 0.5px solid #f2f2f2;border-radius: 4px;">
-					<div style="" class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+					<div  class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 						<h4 style="color: #0275D8;">Terms and conditions:</h4>
 						<h5 style="color: #7f7f7f;">1) The biodata must be completed correctly.</h5>
 						<h5 style="color: #7f7f7f;">2) All kinds of information must be true.</h5>
@@ -728,7 +728,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>

@@ -103,8 +103,8 @@
 		</div>
 	</div>
 	<div style="width: 100%; margin-top: 73px;">
-		<div style="" class="section1 row">
-			<div class="slider col-md-7" style=""><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li><li data-target="#carouselExampleIndicators" data-slide-to="1"></li><li data-target="#carouselExampleIndicators" data-slide-to="2"></li></ol> <div class="carousel-inner"> <div class="carousel-item active"> <img class="d-block w-100 img_slider" src="img/dt11.jpg" alt="First slide"> <div class="carousel-caption d-none d-md-block"> </div></div><div class="carousel-item"> <img class="d-block w-100 img_slider" src="img/dt12.jpg" alt="Second slide"> <div class="carousel-caption d-none d-md-block"> <p></p></div></div><div class="carousel-item"> <img class="d-block w-100 img_slider" src="img/dt10.jpg" alt="Third slide"> <div class="carousel-caption d-none d-md-block"> <p></p></div></div></div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a></div></div>
+		<div  class="section1 row">
+			<div class="slider col-md-7" ><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li><li data-target="#carouselExampleIndicators" data-slide-to="1"></li><li data-target="#carouselExampleIndicators" data-slide-to="2"></li></ol> <div class="carousel-inner"> <div class="carousel-item active"> <img class="d-block w-100 img_slider" src="img/dt11.jpg" alt="First slide"> <div class="carousel-caption d-none d-md-block"> </div></div><div class="carousel-item"> <img class="d-block w-100 img_slider" src="img/dt12.jpg" alt="Second slide"> <div class="carousel-caption d-none d-md-block"> <p></p></div></div><div class="carousel-item"> <img class="d-block w-100 img_slider" src="img/dt10.jpg" alt="Third slide"> <div class="carousel-caption d-none d-md-block"> <p></p></div></div></div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a></div></div>
 			<div class="col-md-1"></div>
 			<?php
 				if(isset($_SESSION['user']) /*|| isset($_COOKIE['user'])*/){
@@ -122,7 +122,7 @@
 
 			?>
 
-			<div class="login col-md-4" style="">
+			<div class="login col-md-4" >
 				<h3 style="color: #FF8D8D; text-align: center; font-family: 'Galada', cursive;">Congratulations,  <span style="color: #7F7F7F;"><?php echo $name;?></span></h3>
 				<center><img src="dp/<?php echo $imageName;?>" class="rounded-circle img-thumbnail" width="150"></center>
 				<hr>
@@ -138,11 +138,11 @@
 
 
 			?>
-			<div class="login col-md-4" style="">
+			<div class="login col-md-4" >
 				<form method="post" action="" id="lgform1">
 					<h3 style="color: #00A2E8;">Log in:</h3>
 					<label style="font-size: 20px; color: #202340;">Email / Mobile:</label>
-					<input type="text" style="" required id="Email" class="form-control" placeholder="example@gmail.com/019xxxxxxxx" autocomplete="off">
+					<input type="text"  required id="Email" class="form-control" placeholder="example@gmail.com/019xxxxxxxx" autocomplete="off">
 					<h6 id="xmail_error_message" style="color: red;"></h6>
 					<label style="font-size: 20px; margin-top: 17px; color: #202340;">Password:</label>
 					<input type="password" class="form-control" required id="Password" style="font-family: 'Bangla',sans-serif; font-size: 18px;" placeholder="**********">
@@ -181,7 +181,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 <?php
 
 	?>
-		<div style="" class="section2">
+		<div  class="section2">
 			<h1 style="color: #00A2E8; font-size: 30px;text-align: center;">Smart, reliable, and easy solution for finding a pet
 			</h1>
 			<h5 style="color: #7f7f7f;text-align: center;">দেশের প্রথম স্বয়ংসম্পূর্ণ বাংলা অনলাইন বিবাহ সেবায় আপনাকে স্বাগতম। জীবন সঙ্গী খুঁজতে সহজ মাধ্যম biye24.com.bd আর নয় ঘটকের পেছনে ছোটাছুটি, খুঁজে নিন নিজের পছন্দের জীবন সাথীকে। এছাড়া আমাদের ওয়েব সাইটের মাধ্যমে আদান প্রদান করতে পারেন আপনার প্রয়োজনীয় তথ্যের মেসেজ। তাই আর দেরি না করে এখনি Register biye24.com.bd এ এবং উপভোগ করুন নতুন কিছু।</h5>
@@ -198,7 +198,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 			?>
 		</div>
 	</div>
-	<div class="p_sec3 row" style="">
+	<div class="p_sec3 row" >
 		<div class="section3 col-md-4" style="background: white; padding: 10px 25px;">
 			<h2 style="color: #00A2E8">Find a partner</h2>
 			<?php if(isset($_SESSION['user'])/* || isset($_COOKIE['user'])*/){
@@ -260,7 +260,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 			<?php if(isset($_SESSION['user'])/* || isset($_COOKIE['user'])*/){
 
 			?>
-			<div style="" class="sp3 section3">
+			<div  class="sp3 section3">
 				<h2 style="color:#00A2E8; margin-bottom: 10px;">Most recent members:</h2>
 				<?php
 					$rm = mysqli_query($con, "SELECT * FROM tipshoi ORDER BY id DESC;");
@@ -299,7 +299,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 					<img src="dp/<?php echo $imageName;?>" class="rounded-circle" width="70">
 				</div>
 				
-				<div class="" style="">
+				<div class="" >
 					<a href="profile.php?us1031gdh312k=<?php echo $user_id; ?>"><h5 style="color: #7f7f7f;"><?php echo $mem_name; ?></h5></a>
 					
 					<h6><?php echo $gender;?></h6>
@@ -368,7 +368,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 					<img src="dp/<?php echo $imageName;?>" class="rounded-circle" width="70">
 				</div>
 				
-				<div class="" style="">
+				<div class="" >
 					<a href="#"  onclick="openModal1()"><h5 style="color: #7f7f7f;"><?php echo $mem_name; ?></h5></a>
 					
 					<h6><?php echo $gender;?></h6>
@@ -402,7 +402,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 		</div>
 		<div class="section3 col-md-4" style="background: white; height: inherit; padding: 10px 17px;">
 			<h4 style="color: #00A2E8;">Let's take a look at how to complete Registration and Biodata at Marriage 20:</h4>
-			<iframe style="" width="100%" height="270" src="https://www.youtube.com/embed/jrowJhS35y0">
+			<iframe  width="100%" height="270" src="https://www.youtube.com/embed/jrowJhS35y0">
 			</iframe> 
 		</div>
 	</div>
@@ -465,7 +465,7 @@ $(document).ready(function(){$("#lgform1").submit(function(){var e=0,a=new RegEx
 		<div class="section5" style="margin:0 auto;"><a href="posts.php"><button type="button" class="form-control btn btn-info">Show More Posts</button></a></div>
 	</div>
 		
-	<div style="margin-top: 50px; background-image: url('img/f.png'); background-size: 100% 100%; padding-bottom: 10px; box-shadow: 0 -5px 8px -5px rgba(0,0,0,0.2); background-color: #f9f9f9;"><div style="width: 80%; margin: 0 auto; padding: 10px; " class="row"><div class="col-md-2"></div><div class="col-md-4"><h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5><h6 style="color: #7f7f7f; text-align: center;">Email: biye24.com.bd@gmail.com</h6><h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/biye24/">https://www.facebook.com/biye24/</a></small></h6><h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6></div><div class="col-md-4"><h5 style="color: #00A2E8; text-align: center;">Support:</h5><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="faq.php">FAQ</a></h6><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="terms.php">Terms of Services</a></h6><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="services.php">Privacy Policy</h6></div></div><center><button class="btn btn-info">Contact Us</button></center></div><div class="row" style="background: rgb(15,180,231); /* Old browsers */background: -moz-linear-gradient(-45deg, rgba(15,180,231,1) 0%, rgba(169,228,247,1) 100%); /* FF3.6-15 */background: -webkit-linear-gradient(-45deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(135deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ width: 100%; margin: 0; padding-top: 5px;"><div class="col-md-1"></div><div style="width: 220px; margin: 0 auto;" class="col-md-4 social"><a href="https://www.facebook.com/biye24/" class="fa fa-facebook"></a><a href="#" class="fa fa-youtube"></a><a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-instagram"></a></div><div class="col-md-6" style="padding: 10px 10px;"><h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></b></small></h6></div></div>
+	<div style="margin-top: 50px; background-image: url('img/f.png'); background-size: 100% 100%; padding-bottom: 10px; box-shadow: 0 -5px 8px -5px rgba(0,0,0,0.2); background-color: #f9f9f9;"><div style="width: 80%; margin: 0 auto; padding: 10px; " class="row"><div class="col-md-2"></div><div class="col-md-4"><h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5><h6 style="color: #7f7f7f; text-align: center;">Email: biye24.com.bd@gmail.com</h6><h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/biye24/">https://www.facebook.com/biye24/</a></small></h6><h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6></div><div class="col-md-4"><h5 style="color: #00A2E8; text-align: center;">Support:</h5><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="faq.php">FAQ</a></h6><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="terms.php">Terms of Services</a></h6><h6 style="color: #7f7f7f; text-align: center;"><a style="text-decoration: none;" href="services.php">Privacy Policy</h6></div></div><center><button class="btn btn-info">Contact Us</button></center></div><div class="row" style="background: rgb(15,180,231); /* Old browsers */background: -moz-linear-gradient(-45deg, rgba(15,180,231,1) 0%, rgba(169,228,247,1) 100%); /* FF3.6-15 */background: -webkit-linear-gradient(-45deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(135deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ width: 100%; margin: 0; padding-top: 5px;"><div class="col-md-1"></div><div style="width: 220px; margin: 0 auto;" class="col-md-4 social"><a href="https://www.facebook.com/biye24/" class="fa fa-facebook"></a><a href="#" class="fa fa-youtube"></a><a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-instagram"></a></div><div class="col-md-6" style="padding: 10px 10px;"><h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6></div></div>
 	<script>
 	function myFunction() {
 	    var x = document.getElementById("myTopnav");

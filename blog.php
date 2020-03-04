@@ -201,7 +201,7 @@
 		</div>
 		
 
-		<div style="" class="row blog_sec">
+		<div  class="row blog_sec">
 
 			<div style="margin-top: 60px;" class="col-md-2 sidenav">
 				<?php if(isset($_SESSION['user'])){?>	
@@ -635,15 +635,15 @@ $(document).ready(function(){
 		
 });
 </script>
-		<div id="uploadimageModal" style="" class="modal" role="dialog">
-			<div class="modal-dialog" style="">
-				<div class="modal-content" style="">
+		<div id="uploadimageModal"  class="modal" role="dialog">
+			<div class="modal-dialog" >
+				<div class="modal-content" >
 		      		<div class="modal-header">
 		        		
 		        		<h4 style="color: #32BEF0;" class="modal-title">Crop Image</h4>
 		        		<button type="button"  class="close" data-dismiss="modal">&times;</button>
 		      		</div>
-		      		<div class="" style="">
+		      		<div class="" >
 		  					
 						  <div id="image_demo" style="width:430px; margin-left:-115px;"></div>
   						
@@ -651,7 +651,7 @@ $(document).ready(function(){
 					<br>
 					<div class="modal-footer">
 						<div  style="margin-top: -40px;" class="btn-group">
-						  <button style=""	class="btn btn-info crop_image">Upload</button>
+						  <button 	class="btn btn-info crop_image">Upload</button>
 						  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 						 </div>
 						
@@ -692,7 +692,7 @@ $(document).ready(function(){
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 				<div class="col-md-6" style="padding: 10px 10px;">
-					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/" style="" class="myname"><u>Nakib Hossain</u></a></small></b></h6>
+					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></small></b></h6>
 				</div>
 			</div>
 		</div>
