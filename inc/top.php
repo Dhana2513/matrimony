@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে24</title>
+	<title>Shubhamangal</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,7 +53,7 @@
 		  text-align: center;
 		  padding: 14px 16px;
 		  text-decoration: none;
-		  font-size: 24px;
+		  font-size: 20px;
 		}
 		.dropdownx {
 		    float: left;
@@ -61,7 +61,7 @@
 		}
 
 		.dropdownx .dropbtn {
-		    font-size: 24px;    
+		    font-size: 20px;    
 		    border: none;
 		    outline: none;
 		    color: #7F7F7F;

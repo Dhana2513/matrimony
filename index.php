@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে24</title>
+	<title>Shubhamangal</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -131,7 +131,7 @@
 		  text-align: center;
 		  padding: 14px 16px;
 		  text-decoration: none;
-		  font-size: 24px;
+		  font-size: 20px;
 		}
 
 		.active {
@@ -148,7 +148,7 @@
 		}
 
 		.dropdownx .dropbtn {
-		    font-size: 24px;    
+		    font-size: 20px;    
 		    border: none;
 		    outline: none;
 		    color: #7F7F7F;
@@ -298,7 +298,7 @@
 	
 	<div style="z-index: 10; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); background: white; position: fixed; top: 0; width: 100%;">
 		<div class="topnav" id="myTopnav">
-		  <a><img class="logo" style="margin-top: -5px;" src="img/logo.png" height="50px"></a>
+		  <a><img class="logo" style="margin-top: -5px;" src="img/logo.png" height="40px"></a>
 		  <a href="index.php" class="nav_content" style="color: #00A2E8;">Home</a>
 		  
 		  <div class="dropdownx">
@@ -805,7 +805,8 @@ $(document).ready(function(){
 		<div  class="section2">
 			<h1 style="color: #00A2E8; font-size: 30px;text-align: center;">Smart, reliable, and easy solution for finding a partner
 			</h1>
-			<h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's first self-contained Bangla online wedding service. The simplest way to find a mate is shubhamangal.com and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at shubhamangal.com and enjoy something new.</h5>
+			<!-- <h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's self-contained  online wedding service. The simplest way to find a mate is shubhamangal.com and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at shubhamangal.com and enjoy something new.</h5> -->
+			<h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's self-contained  online wedding service. The simplest way to find a mate is shubhamangal.com and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at shubhamangal.com and enjoy something new.</h5>
 			<?php
 				if(isset($_SESSION['user'])/* || isset($_COOKIE['user'])*/){
 				}
@@ -1024,7 +1025,7 @@ $(document).ready(function(){
 		</div>
 		<div class="section3 col-md-4" style="background: white; height: inherit; padding: 10px 17px;">
 			<h4 style="color: #00A2E8;">Let's take a look at how to complete Registration and Biodata at Marriage 20:</h4>
-			<iframe  width="100%" height="270" src="https://www.youtube.com/embed/jrowJhS35y0">
+			<iframe  width="100%" height="270" src="">
 			</iframe> 
 		</div>
 	</div>
@@ -1121,7 +1122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. </h6>
 		</div>
 	</div>
 	<script>

@@ -9,7 +9,7 @@ require_once('db_connect.php');
 <html>
 
 <head>
-	<title>বিয়ে24</title>
+	<title>Shubhamangal</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -164,7 +164,7 @@ require_once('db_connect.php');
 			text-align: center;
 			padding: 14px 16px;
 			text-decoration: none;
-			font-size: 24px;
+			font-size: 20px;
 		}
 
 		.active {
@@ -182,7 +182,7 @@ require_once('db_connect.php');
 		}
 
 		.dropdownx .dropbtn {
-			font-size: 24px;
+			font-size: 20px;
 			border: none;
 			outline: none;
 			color: #7F7F7F;
@@ -340,7 +340,7 @@ require_once('db_connect.php');
 
 	<div style="z-index: 10; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); background: white; position: fixed; top: 0; width: 100%;">
 		<div class="topnav" id="myTopnav">
-			<a><img class="logo" style="margin-top: -5px;" src="img/logo.png" height="50px"></a>
+			<a><img class="logo" style="margin-top: -5px;" src="img/logo.png" height="40px"></a>
 			<a href="index.php" class="nav_content">Home</a>
 
 			<div class="dropdownx">
@@ -728,7 +728,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. </h6>
 		</div>
 	</div>
 	<script>
