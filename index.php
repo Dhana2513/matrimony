@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -803,9 +803,9 @@ $(document).ready(function(){
 
 	?>
 		<div  class="section2">
-			<h1 style="color: #00A2E8; font-size: 30px;text-align: center;">Smart, reliable, and easy solution for finding a pet
+			<h1 style="color: #00A2E8; font-size: 30px;text-align: center;">Smart, reliable, and easy solution for finding a partner
 			</h1>
-			<h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's first self-contained Bangla online wedding service. The simplest way to find a mate is biye24.com.bd and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at biye24.com.bd and enjoy something new.</h5>
+			<h5 style="color: #7f7f7f;text-align: center;">Welcome to the country's first self-contained Bangla online wedding service. The simplest way to find a mate is shubhamangal.com and not just go behind the wheel, find a partner of your choice. You can also exchange information through your web site. So don't hesitate to register now at shubhamangal.com and enjoy something new.</h5>
 			<?php
 				if(isset($_SESSION['user'])/* || isset($_COOKIE['user'])*/){
 				}
@@ -836,7 +836,6 @@ $(document).ready(function(){
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Unmarried"> Unmarried</label>
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Divorced"> Divorced</label>
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Widow"> Widow</label>
-		        <label class="radio-inline"><input type="radio" name="m_stat" value="Dangerous"> Dangerous</label>
 				<hr style="margin-top: 3px;">
 				<h5 style="color: #7f7f7f;">Religion:</h5>
 				<label class="radio-inline"><input required="religion" type="radio" name="religion" autocomplete="off" value="Islam"> Islam</label>
@@ -862,7 +861,6 @@ $(document).ready(function(){
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Unmarried"> Unmarried</label>
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Divorced"> Divorced</label>
 		        <label class="radio-inline"><input type="radio" name="m_stat" value="Widow"> Widow</label>
-		        <label class="radio-inline"><input type="radio" name="m_stat" value="Dangerous"> Dangerous</label>
 				<hr style="margin-top: 3px;">
 				<h5 style="color: #7f7f7f;">Religion:</h5>
 				<label class="radio-inline"><input required="religion" type="radio" name="religion" autocomplete="off" value="Islam"> Islam</label>
@@ -903,7 +901,7 @@ $(document).ready(function(){
 								$gender = "Male";
 							}
 							else{
-								$gender = "Women";	
+								$gender = "Female";	
 							} 
 							
 							$rdp = mysqli_query($con, "SELECT * FROM dp where user = '$member'");
@@ -974,7 +972,7 @@ $(document).ready(function(){
 								$gender = "Male";
 							}
 							else{
-								$gender = "Women";	
+								$gender = "Female";	
 							} 
 							$rdp = mysqli_query($con, "SELECT * FROM dp where user = '$member'");
 							if(mysqli_num_rows($rdp)>0){
@@ -1096,8 +1094,8 @@ $(document).ready(function(){
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-				<h6 style="color: #7f7f7f; text-align: center;">Email: biye24.com.bd@gmail.com</h6>
-				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/biye24/">https://www.facebook.com/biye24/</a></small></h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal.com@gmail.com</h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangal/">https://www.facebook.com/Shubhamangal/</a></small></h6>
 				<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 			</div>
 			<div class="col-md-4">
@@ -1116,14 +1114,14 @@ background: linear-gradient(135deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 10
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ width: 100%; margin: 0; padding-top: 5px;">
 		<div class="col-md-1"></div>
 		<div style="width: 220px; margin: 0 auto;" class="col-md-4 social">
-			<a href="https://www.facebook.com/biye24/" class="fa fa-facebook"></a>
+			<a href="https://www.facebook.com/Shubhamangal/" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-youtube"></a>
 			<a href="#" class="fa fa-linkedin"></a>
 			<a href="#" class="fa fa-twitter"></a>
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>

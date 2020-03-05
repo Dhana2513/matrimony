@@ -49,7 +49,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -382,8 +382,8 @@ $(document).ready(function(){
 					<div class="col-md-2"></div>
 					<div class="col-md-4">
 						<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-						<h6 style="color: #7f7f7f; text-align: center;">Email: biye24@gmail.com</h6>
-						<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Biye24bd/">https://www.facebook.com/Biye24bd/</a></small></h6>
+						<h6 style="color: #7f7f7f; text-align: center;">Email: Shubhamangal@gmail.com</h6>
+						<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangalbd/">https://www.facebook.com/Shubhamangalbd/</a></small></h6>
 						<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 					</div>
 					<div class="col-md-4">
@@ -398,14 +398,14 @@ $(document).ready(function(){
 			<div class="row" style=" background: rgb(15,180,231); /* Old 	browsers */background: -moz-linear-gradient(-45deg, rgba(15,180,231,1) 0%, rgba(169,228,247,1) 100%); /* 			FF3.6-15 */background: -webkit-linear-gradient(-45deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* 		Chrome10-25,Safari5.1-6 */background: linear-gradient(135deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=1 ); /* IE6-9 fallback on horizontal 		gradient */ width: 100%; margin: 0; padding-top: 5px;">
 				<div class="col-md-1"></div>
 				<div style="width: 220px; margin: 0 auto;" class="col-md-4 social">
-					<a href="https://www.facebook.com/Biye24bd/" class="fa fa-facebook"></a>
+					<a href="https://www.facebook.com/Shubhamangalbd/" class="fa fa-facebook"></a>
 					<a href="#" class="fa fa-youtube"></a>
 					<a href="#" class="fa fa-linkedin"></a>
 					<a href="#" class="fa fa-twitter"></a>
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 				<div class="col-md-6" style="padding: 10px 10px;">
-					<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></small></b></h6>
+					<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></small></b></h6>
 				</div>
 			</div>
 		</div>

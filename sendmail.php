@@ -50,7 +50,7 @@
 			
 		}
 
-		/*$sendfrom = "biye24.com.bd@gmail.com";
+		/*$sendfrom = "shubhamangal.com@gmail.com";
         //$name =  $_POST['name'];
     	$mail = new PHPMailer();
     
@@ -60,7 +60,7 @@
     
     	$mail->SMTPAuth = true;
     
-    	$mail->Username = "biye24.com.bd@gmail.com";
+    	$mail->Username = "shubhamangal.com@gmail.com";
     
     	$mail->Password = "lkjhgfdsa42742";
     
@@ -68,17 +68,17 @@
     
     	$mail->Port = 465;
     
-    	$mail->Subject = "Reset Password | biye24";
+    	$mail->Subject = "Reset Password | Shubhamangal";
     
         $mail->isHTML(true);
     	
-    	$mail->Body = "<img src='https://www.biye24.com.bd/img/mail.png' width='400'>
+    	$mail->Body = "<img src='https://www.shubhamangal.com/img/mail.png' width='400'>
     	<br>
     	<h2 style='color: #00A2E8;'>Hi, ".$name."</h2>
     	<h3 style='color: #000;'>To reset your password please follow the link below</h3>
-    	<a href='https://biye24.com.bd/reset_password.php?user=$check&key=$mail_key'><h3>https://biye24.com.bd/reset_password.php?user=$check&key=$mail_key</h3></a>
-    	<h3 style='color: #000;'>Thank you for being with biye24.com.bd";
-    	$mail->setFrom($sendfrom,'biye24 bd');
+    	<a href='https://shubhamangal.com/reset_password.php?user=$check&key=$mail_key'><h3>https://shubhamangal.com/reset_password.php?user=$check&key=$mail_key</h3></a>
+    	<h3 style='color: #000;'>Thank you for being with shubhamangal.com";
+    	$mail->setFrom($sendfrom,'Shubhamangal bd');
     
     	$mail->addAddress($check);
     	
@@ -95,7 +95,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.maateen.me/bangla/font.css" rel="stylesheet">

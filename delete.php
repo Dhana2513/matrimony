@@ -25,7 +25,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,8 +42,8 @@
 </head>
 <body>
 	<div style="width: 50%; margin:0 auto; background: white; border-radius: 5px; margin-top: 100px; padding: 10px; box-shadow: 0px 4px 8px #f2f2f2;">
-		<h5>আপনি কি শিওর যে আপনি আপনার একাউন্ট ডিলিট করতে চান?</h5>
-		<h6>প্রোফাইল ডিলিট করলে আপনার একাউন্ট টি ডিলিট হয়ে যাবে, আপনার যাবতীয় ম্যাসেজ, পোস্ট, ছবি, বায়োডাটা সব কিছু ডিলিট হয়ে যাবে এবং আপনি আপনার পূর্বের পাসওয়ার্ড দিয়ে আর Log in করতে পারবেন না।</h6>
+		<h5>Are you sure you want to delete your account?</h5>
+		<h6>Deleting a profile will delete your account, delete all your messages, posts, photos, biodata and you will no longer be able to log in with your previous password.</h6>
 		<br>
 		<form method="post" action="">
 

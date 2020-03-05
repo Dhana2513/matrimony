@@ -1,12 +1,12 @@
 <?php
 	$dbhost="localhost"; 
-	//$dbhost="biye24.com.bd";
+	//$dbhost="shubhamangal.com";
 	$dbuser="root";
-	//$dbuser="biye24_admin";
+	//$dbuser="Shubhamangal_admin";
 	$dbpass="";
 	//$dbpass="65adminbiye65";
-	//$dbname="biye24com_db";
-	$dbname="biye24";
+	//$dbname="Shubhamangalcom_db";
+	$dbname="Shubhamangal";
 	$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 	
 ?>

@@ -29,7 +29,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.maateen.me/bangla/font.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 <body style="background: #f9f9f9;">
 	<div style="background: white; width: 340px; margin: 0 auto; margin-top: 10%; padding: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.25); border-radius: 10px;">
 
-		<h5 style="color: #00A2E8">Registrationের সময় যে ইমেইল বা মোবাইল নম্বর টি দিয়েছিলেন সেটি লিখুনঃ</h5>
+		<h5 style="color: #00A2E8">Registrationের সময় যে Email বা মোবাইল নম্বর টি দিয়েছিলেন সেটি লিখুনঃ</h5>
 		
 		<form method="post" action="" id="formm">
 			<h5>Email / Mobile:</h5>

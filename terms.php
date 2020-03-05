@@ -9,7 +9,7 @@ require_once('db_connect.php');
 <html>
 
 <head>
-	<title>বিয়ে২৪</title>
+	<title>বিয়ে24</title>
 	<link rel="icon" href="img/Logos.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -459,32 +459,32 @@ require_once('db_connect.php');
 					<form id="registration_form" class="" method="post">
 
 
-						<h5 style="margin-left: 3px; margin-top: 10px;">Male / Female পূর্ণName: </h5>
-						<input type="text" required id="name" class="form-control" name="" placeholder="আপনার Full Name লিখুন">
+						<h5 style="margin-left: 3px; margin-top: 10px;">Male / Female Name: </h5>
+						<input type="text" required id="name" class="form-control" name="" placeholder="Enter Full Name">
 						<h6 id="name_error_message" style="color: red;"></h6>
 						<h5 style="margin-left: 3px; margin-top: 10px;">Gender:</h5>
 						<label class="radio-inline"><input required class="gender" type="radio" name="gender" value="Male"> Male</label>
 						<label class="radio-inline"><input type="radio" class="gender" name="gender" value="Female"> Female</label>
 
-						<h5 style="margin-left: 3px; margin-top: 10px;">ইমেইল / Mobile No:</h5>
+						<h5 style="margin-left: 3px; margin-top: 10px;">Email / Mobile No:</h5>
 						<input type="text" required id="email" class="form-control" name="" placeholder="Ex: example@mail.com / 019xxxxxxxx">
 						<h6 id="mail_error_message" style="color: red;"></h6>
 
-						<h5 style="margin-left: 3px;  margin-top: 10px;">নতুন Password:</h5>
+						<h5 style="margin-left: 3px;  margin-top: 10px;">Enter Password:</h5>
 						<input required id="form_password" type="password" class="form-control" name="" placeholder="Enter password ...">
 						<h6 id="password_error_message" style="color: red;"></h6>
-						<h5 style="margin-left: 3px; margin-top: 10px;">পুনঃরায় পাসওয়ার্ড দিনঃ</h5>
-						<input required id="form_retype_password" type="password" class="form-control" name="" placeholder="পুনঃরায় Enter password ...">
+						<h5 style="margin-left: 3px; margin-top: 10px;">Confirm Password</h5>
+						<input required id="form_retype_password" type="password" class="form-control" name="" placeholder="Confirm Password...">
 						<h6 id="retype_password_error_message" style="color: red;"></h6>
 						<h6 id="retype_password_match_message" style="color: green;"></h6>
 						<br>
 						<input type="checkbox" required id="check" name="rules" value="YES">
-						<label for="rules"><a href="help.php#v-pills-home">Terms and conditions</a> আমি পড়েছি এবং সম্মত হয়েছি</label>
+						<label for="rules"><a href="help.php#v-pills-home">Terms and conditions</a> I have read and agreed</label>
 						<div id="result"></div>
-						<button class="btn btn-info form-control" style="font-family: 'Bangla'">অ্যাকাউন্ট খুলুন</button>
+						<button class="btn btn-info form-control" style="font-family: 'Bangla'">Open an account</button>
 					</form>
 
-					<h5>অ্যাকাউন্ট আছে? <a href="#" onclick="openModal1()" class="nav_content">Login</a></h5>
+					<h5>Have an account? <a href="#" onclick="openModal1()" class="nav_content">Login</a></h5>
 
 
 				</div>
@@ -701,8 +701,8 @@ require_once('db_connect.php');
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-				<h6 style="color: #7f7f7f; text-align: center;">Email: biye24.com.bd@gmail.com</h6>
-				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/biye24/">https://www.facebook.com/biye24/</a></small></h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal.com@gmail.com</h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangal/">https://www.facebook.com/Shubhamangal/</a></small></h6>
 				<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 			</div>
 			<div class="col-md-4">
@@ -721,14 +721,14 @@ background: linear-gradient(135deg, rgba(15,180,231,1) 0%,rgba(169,228,247,1) 10
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ width: 100%; margin: 0; padding-top: 5px;">
 		<div class="col-md-1"></div>
 		<div style="width: 220px; margin: 0 auto;" class="col-md-4 social">
-			<a href="https://www.facebook.com/Biye24bd/" class="fa fa-facebook"></a>
+			<a href="https://www.facebook.com/Shubhamangalbd/" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-youtube"></a>
 			<a href="#" class="fa fa-linkedin"></a>
 			<a href="#" class="fa fa-twitter"></a>
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
 		<div class="col-md-6" style="padding: 10px 10px;">
-			<h6 style=" color: white; text-align: center;"><b>&copy Copyright biye24.com.bd All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
+			<h6 style=" color: white; text-align: center;"><b>&copy Copyright shubhamangal.com All Right Reserved. <small>Developed by <a href="https://www.nakibhossain.com/"  class="myname"><u>Nakib Hossain</u></a></b></small></h6>
 		</div>
 	</div>
 	<script>
