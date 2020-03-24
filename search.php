@@ -442,7 +442,7 @@ $(document).ready(function(){
 					<div class="col-md-2"></div>
 					<div class="col-md-4">
 						<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-						<h6 style="color: #7f7f7f; text-align: center;">Email: Shubhamangal@gmail.com</h6>
+						<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal@gmail.com</h6>
 						<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangalbd/">https://www.facebook.com/Shubhamangalbd/</a></small></h6>
 						<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 					</div>

@@ -420,7 +420,7 @@ require_once('db_connect.php');
 						<br>
 
 
-						<h5 style="color: #000;"><b>How to register? </b></h5>
+						<h5 style="color: #000;"><b>1) How to register? </b></h5>
 						<h5 style="color: #000;">To register, we have to register on our website www.shubhamangal.com with email and user ID and password of 8-12 digits. Then fill in your information and favorite information to find out your mind Male / Female.</h5>
 
 						<h5 style="color: #000;"><b>2) How to use id? </b></h5>
@@ -429,10 +429,10 @@ require_once('db_connect.php');
 						<h5 style="color: #000;"><b>3) Who else can register my biodata without me? </b></h5>
 						<h5 style="color: #000;">Without your father, mother, brother, sister, friends and relatives you can create accounts, but you will have to open your name and information during registration.</h5>
 
-						<h5 style="color: #000;"><b>5) How much do I have to pay for registration? </b></h5>
+						<h5 style="color: #000;"><b>4) How much do I have to pay for registration? </b></h5>
 						<h5 style="color: #000;">Registration is completely free. You don't have to pay anywhere.</h5>
 
-						<h5 style="color: #000;"><b>3) What are our main features? </b></h5>
+						<h5 style="color: #000;"><b>5) What are our main features? </b></h5>
 						<ul>
 							<li style="color: #000;">
 								<h5>Most important to us is the choice of Male-Female and their families. Our work is based on their well-being.</h5>
@@ -445,22 +445,22 @@ require_once('db_connect.php');
 							</li>
 
 						</ul>
-						<h5 style="color: #000;"><b>3) Can I mention my email, phone number anywhere else without this proper location? </b></h5>
+						<h5 style="color: #000;"><b>6) Can I mention my email, phone number anywhere else without this proper location? </b></h5>
 						<h5 style="color: #000;">No You can use the mobile name, email address and Facebook ID only where you are asked.</h5>
 
-						<h5 style="color: #000;"><b>3) Why am I being encouraged to verify? </b></h5>
+						<h5 style="color: #000;"><b>7) Why am I being encouraged to verify? </b></h5>
 						<h5 style="color: #000;">You are encouraged to make a verification to increase your credibility. Which will attract everyone to you and help you get the desired Male or Female.</h5>
 
-						<h5 style="color: #000;"><b>3) How important is it to give voter ID or birth registration number?</b></h5>
+						<h5 style="color: #000;"><b>8) How important is it to give voter ID or birth registration number?</b></h5>
 						<h5 style="color: #000;">The voter ID or birth registration number you provided in Boydata will increase your credibility and help prove the truth of all your information.</h5>
 
-						<h5 style="color: #000;"><b>3) Can I change my preferences? </b></h5>
+						<h5 style="color: #000;"><b>9) Can I change my preferences? </b></h5>
 						<h5 style="color: #000;">You can change your preferences at any time. Your match will be shown accordingly.</h5>
 
-						<h5 style="color: #000;"><b>3) How to communicate with users?</b></h5>
+						<h5 style="color: #000;"><b>10) How to communicate with users?</b></h5>
 						<h5 style="color: #000;">You can communicate directly with the message when the profile matches your mind.</h5>
 
-						<h5 style="color: #000;"><b>3) What are the reasons why my account may be closed? </b></h5>
+						<h5 style="color: #000;"><b>11) What are the reasons why my account may be closed? </b></h5>
 						<h5 style="color: #000;">Your account will be deleted if you find evidence of a malicious act using the user id or because of the harassment of someone else. </h5>
 
 						<h6 style="text-align: center; color: #00A2E8;">Learn More</h6>
@@ -726,7 +726,7 @@ require_once('db_connect.php');
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-				<h6 style="color: #7f7f7f; text-align: center;">Email: Shubhamangal@gmail.com</h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal@gmail.com</h6>
 				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangalbd/">https://www.facebook.com/Shubhamangalbd/</a></small></h6>
 				<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 			</div>

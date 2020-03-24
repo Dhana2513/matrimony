@@ -568,7 +568,7 @@ require_once('inc/top.php');
 
 								<input type="number" id="mobile" class="form-control" name="" placeholder="Example: 019xxxxxxxx" value="<?php echo $mobile; ?>">
 								<h5 style="margin-left: 3px; margin-top: 10px;">Email:</h5>
-								<input type="email" id="gmail" class="form-control" name="" placeholder="Example: Shubhamangal@gmail.com" value="<?php echo $gmail; ?>">
+								<input type="email" id="gmail" class="form-control" name="" placeholder="Example: shubhamangal@gmail.com" value="<?php echo $gmail; ?>">
 
 						</div>
 						<div class="col-md-6">

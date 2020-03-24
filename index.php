@@ -1048,30 +1048,17 @@ $(document).ready(function(){
 					}
 					for($i=0; $i<$t; $i++){
 						$row = mysqli_fetch_array($qr);
-						$gender = $row['gender'];
 						$post_id = $row['id'];
 						$content = mb_substr($row['content'], 0, 60);
 						$hisname = $row['name'];
 						$image = $row['image'];
 				?>
 				<div class="col-md-4" style="padding: 15px;">
-					<?php 
-							if($gender == "Male"){
-							?>
-							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Female</h5>
-							<?php
-							}else{
-							?>
-							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Male</h5>
-							<?php
-							}
-
-							?>
 					
 					<center><img src="post/<?php echo $image; ?>" width="130" class="rounded-circle"></center>
 					<br>
-					<h5 style="text-align:center; "><span>Name:  </span><?php echo $hisname; ?></h5>
-					<h5 style="text-align:center;" class="your-div-id"><?php echo $content; ?>...</h5>
+					<h5 style="text-align:center; "><span> </span><?php  echo "<b style='color:#9e54ff;'>".$hisname."</b>"; ?></h5>
+					<h5 style="text-align:center; color:#7f7f7f; font-size: 18px;" class="your-div-id"><?php echo $content; ?>...</h5>
 					<center><a href="post_s.php?id=<?php echo $post_id;?>"><button class="btn btn-outline-info">See more</button></a></center>
 					
 				</div>	
