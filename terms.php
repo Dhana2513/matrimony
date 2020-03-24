@@ -352,7 +352,7 @@ require_once('db_connect.php');
 					<a href="search.php?gender=Female" class="nav_content">Female</a>
 				</div>
 			</div>
-			<a href="posts.php" class="nav_content">Posts</a>
+			<!-- <a href="posts.php" class="nav_content">Posts</a> -->
 			<a href="blog.php" class="nav_content">Blog</a>
 			<?php
 			if (!isset($_SESSION['user'])) {
@@ -459,7 +459,7 @@ require_once('db_connect.php');
 					<form id="registration_form" class="" method="post">
 
 
-						<h5 style="margin-left: 3px; margin-top: 10px;">Male / Female Name: </h5>
+						<h5 style="margin-left: 3px; margin-top: 10px;">Full Name: </h5>
 						<input type="text" required id="name" class="form-control" name="" placeholder="Enter Full Name">
 						<h6 id="name_error_message" style="color: red;"></h6>
 						<h5 style="margin-left: 3px; margin-top: 10px;">Gender:</h5>
@@ -701,7 +701,7 @@ require_once('db_connect.php');
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal.com@gmail.com</h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal@gmail.com</h6>
 				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangal/">https://www.facebook.com/Shubhamangal/</a></small></h6>
 				<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 			</div>

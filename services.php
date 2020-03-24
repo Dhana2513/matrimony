@@ -288,7 +288,7 @@
 		      <a href="search.php?gender=Female" class="nav_content">Female</a>
 		    </div>
 		  </div> 
-		  <a href="posts.php" class="nav_content">Posts</a>
+		  <!-- <a href="posts.php" class="nav_content">Posts</a> -->
 		  <a href="blog.php" class="nav_content">Blog</a>
 		  <?php
 		  	if(!isset($_SESSION['user'])){
@@ -389,7 +389,7 @@
 			       	<form id="registration_form" class="" method="post">
 				           
 
-						<h5 style="margin-left: 3px; margin-top: 10px;">Male / Female Name: </h5>
+						<h5 style="margin-left: 3px; margin-top: 10px;">Full Name: </h5>
 						<input type="text" required id="name" class="form-control" name="" placeholder="Enter Full Name">
 						<h6 id="name_error_message" style="color: red;"></h6>
 						<h5 style="margin-left: 3px; margin-top: 10px;">Gender:</h5>

@@ -34,7 +34,7 @@
 			$msg = "<h5 style='color:green;'>Your post has been published.</h5>";
 		}
 		else{	
-			$msg = "<h5 style='color:red;'>Sorry! Some Error occured, Try posting again.</h5>";
+			$msg = "<h5 style='color:red;'>Sorry! Some Error occured, Try posting again....</h5>";
 		}
 		$arr = array('a' => 'Nakib', 'b' => $ac, 'c' => $msg, 'd' => $data1, 'e' => 5);
 

@@ -6,7 +6,7 @@
 	$dbpass="";
 	//$dbpass="65adminbiye65";
 	//$dbname="Shubhamangalcom_db";
-	$dbname="Shubhamangal";
+	$dbname="shubhamangal";
 	$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 	
 ?>

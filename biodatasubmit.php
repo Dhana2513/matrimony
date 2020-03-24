@@ -22,6 +22,7 @@
 	$m_stat = $_POST['m_stat'];
 	$smoking = $_POST['smoking'];
 	$protibondhi = $_POST['protibondhi'];
+
 	
 	$abroad = $_POST['abroad'];
 	$cur_address = $_POST['cur_address'];
@@ -34,7 +35,6 @@
 	$ssc = $_POST['ssc'];
 	$ssc_board = $_POST['ssc_board'];
 	$ssc_year = $_POST['ssc_year'];
-	
 	$hsc = $_POST['hsc'];
 	$hsc_board = $_POST['hsc_board'];
 	$hsc_year = $_POST['hsc_year'];
@@ -51,9 +51,15 @@
 	$about_me = $_POST['about_me'];
 	$about_her = $_POST['about_her'];
 	
+
 	$query = mysqli_query($con, "SELECT * FROM biodata WHERE user = '$user'");
+
+
 	if(mysqli_num_rows($query)>0){
+
+		
 		$qr = "UPDATE `biodata` SET `name` = '$full_name', `father_name` = '$father_name', `father_work` = '$father_work', `mother_name` = '$mother_name', `mother_work` = '$mother_work', `family_member` = '$family_member_no', `bday` = '$birthday', `age` = '$age', `gender` = '$gender', `weight` = '$weight', `height` = '$height', `body_color` = '$body_color', `blood_group` = '$blood', `religion` = '$religion', `occupasion` = '$occupasion', `mobile` = '$mobile', `email` = '$gmail', `m_stat` = '$m_stat', `smoking` = '$smoking', `physical_disability` = '$protibondhi', `abroad_or_not` = '$abroad', `cur_address` = '$cur_address', `per_address` = '$per_address', `jsc` = '$jsc', `jsc_board` = '$jsc_board', `jsc_year` = '$jsc_year', `ssc` = '$ssc', `ssc_board` = '$ssc_board', `ssc_year` = '$ssc_year', `hsc` = '$hsc', `hsc_board` = '$hsc_board', `hsc_year` = '$hsc_year', `bsc` = '$bsc', `bsc_year` = '$bsc_year', `msc` = '$msc', `msc_year` = '$msc_year', `last_ins` = '$last_ins', `nid` = '$nid', `about_me` = '$about_me', `about_her` = '$about_her' WHERE `biodata`.`user` = '$user'";
+		
 		$rn = mysqli_query($con,$qr);
 		if(!empty($full_name)){
 			$qr2 = mysqli_query($con, "UPDATE `tipshoi` SET `name` = '$full_name', `gender` = '$gender' WHERE `tipshoi`.`mail` = '$user';");
@@ -72,3 +78,5 @@
 	else{
 		echo "<h5 style='color:red; padding:10px;'>Sorry, the biodata update was not successful. Repeat for a while.</h5>";	
 	}
+
+	

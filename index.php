@@ -306,7 +306,8 @@
 		      <i class="fa fa-caret-down"></i>
 		    </button>
 		    <div class="dropdownx-content">
-		    <?php
+			<?php
+			
 		    	if(isset($_SESSION['user'])  || isset($_COOKIE['user'])){
 		    		$_SESSION['user'] = $_COOKIE['user'];
 		    ?>
@@ -323,7 +324,7 @@
 		      ?>
 		    </div>
 		  </div> 
-		  <a href="posts.php" class="nav_content">Posts</a>
+		  <!-- <a href="posts.php" class="nav_content">Posts</a> -->
 		  <a href="blog.php" class="nav_content">Blog</a>
 		  <?php
 		  	if(isset($_SESSION['user'])){
@@ -1057,11 +1058,11 @@ $(document).ready(function(){
 					<?php 
 							if($gender == "Male"){
 							?>
-							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Female চাই</h5>
+							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Female</h5>
 							<?php
 							}else{
 							?>
-							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Male চাই</h5>
+							<h5 style="color: #F20E75; text-align: center; margin-top:-8px; ">Male</h5>
 							<?php
 							}
 
@@ -1085,7 +1086,7 @@ $(document).ready(function(){
 			?>
 			
 		</div>
-		<div class="section5" style="margin:0 auto;"><a href="posts.php"><button type="button" class="form-control btn btn-info">Show More Posts</button></a></div>
+		<!-- <div class="section5" style="margin:0 auto;"><a href="posts.php"><button type="button" class="form-control btn btn-info">Show More Posts</button></a></div> -->
 	</div>
 		
 	
@@ -1095,7 +1096,7 @@ $(document).ready(function(){
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h5 style="color: #00A2E8; text-align: center;">Contact Info:</h5>
-				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal.com@gmail.com</h6>
+				<h6 style="color: #7f7f7f; text-align: center;">Email: shubhamangal@gmail.com</h6>
 				<h6 style="color: #7f7f7f; text-align: center;">Facebook: <small><a href="https://www.facebook.com/Shubhamangal/">https://www.facebook.com/Shubhamangal/</a></small></h6>
 				<h6 style="color: #7f7f7f; text-align: center;">9 AM - 12 PM, Saturday - Friday</h6>
 			</div>
@@ -1157,3 +1158,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', end
 
 </body>
 </html>
+<?php

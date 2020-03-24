@@ -187,7 +187,7 @@
 			      <a href="search.php?gender=Female" class="nav_content">Female</a>
 			    </div>
 			  </div> 
-			  <a href="posts.php" class="nav_content" style="color: #00A2E8;">Posts</a>
+			  <!-- <a href="posts.php" class="nav_content" style="color: #00A2E8;">Posts</a> -->
 			  <a href="blog.php" class="nav_content">Blog</a>
 			  <!--<a href="#" onclick="openModal1()" class="nav_content">Log in</a>
 			  <a href="#" onclick="openModal()" class="nav_content">Registration</a>

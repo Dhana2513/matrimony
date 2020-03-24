@@ -28,13 +28,14 @@
 		$rnx = mysqli_query($con,$qrx);
 
 		$qr = "INSERT INTO `goppo` (`id`,`title`, `content`, `image`, `user`, `time`) VALUES (NULL, '$title','$data1', '$imageName', '$data2',NOW());";
+		
 		$rn = mysqli_query($con,$qr);
 		if($rn){
 			$ac = 1;
 			$msg = "<h5 style='color:green;'>Your post has been published.</h5>";
 		}
 		else{	
-			$msg = "<h5 style='color:red;'>Sorry! Some Error occured, Try posting again.</h5>";
+			$msg = "<h5 style='color:red;'>Sorry! Some Error occured, Try posting again. ".$qr."</h5>";
 		}
 		$arr = array('a' => 'Nakib', 'b' => $ac, 'c' => $msg, 'd' => $data1, 'e' => 5);
 

@@ -50,7 +50,7 @@
 			
 		}
 
-		/*$sendfrom = "shubhamangal.com@gmail.com";
+		/*$sendfrom = "shubhamangal@gmail.com";
         //$name =  $_POST['name'];
     	$mail = new PHPMailer();
     
@@ -60,7 +60,7 @@
     
     	$mail->SMTPAuth = true;
     
-    	$mail->Username = "shubhamangal.com@gmail.com";
+    	$mail->Username = "shubhamangal@gmail.com";
     
     	$mail->Password = "lkjhgfdsa42742";
     
