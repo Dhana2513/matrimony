@@ -154,11 +154,11 @@ INSERT INTO `following` (`id`, `post_id`, `comment_id`, `user`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `gintama`
+-- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `gintama`;
-CREATE TABLE IF NOT EXISTS `gintama` (
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
   `eyed` int(11) NOT NULL AUTO_INCREMENT,
   `yahoo` varchar(255) NOT NULL,
   `chabi` varchar(20) NOT NULL,
@@ -166,10 +166,10 @@ CREATE TABLE IF NOT EXISTS `gintama` (
 ) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `gintama`
+-- Dumping data for table `users`
 --
 
-INSERT INTO `gintama` (`eyed`, `yahoo`, `chabi`) VALUES
+INSERT INTO `users` (`eyed`, `yahoo`, `chabi`) VALUES
 (20, 'admin@admin.com', 'nimda654321');
 
 -- --------------------------------------------------------

@@ -25,7 +25,7 @@
 	}
 	if($problem == 0){
 		$ac = 0;
-		$qrc = "SELECT * FROM gintama WHERE yahoo = '$mail';";
+		$qrc = "SELECT * FROM users WHERE yahoo = '$mail';";
 		$rn = mysqli_query($con,$qrc);
 		if(mysqli_num_rows($rn)>0){
 			$msg = "<h6 style='color:red;'>Sorry, A member is already registered with this email id!</h6>";
@@ -34,7 +34,7 @@
 		else{
 			
 			$qr1 = "INSERT INTO `tipshoi` (`id`, `name`, `gender`, `mail`) VALUES (NULL, '$name', '$gender', '$mail');";
-			$qr2 = "INSERT INTO `gintama` (`eyed`, `yahoo`, `chabi`) VALUES (NULL, '$mail', '$pass');";
+			$qr2 = "INSERT INTO `users` (`eyed`, `yahoo`, `chabi`) VALUES (NULL, '$mail', '$pass');";
 			$rn1 = mysqli_query($con,$qr1);		
 			$rn2 = mysqli_query($con,$qr2);
 			$rn3 = mysqli_query($con, "INSERT INTO `biodatapopup` (`user`, `seen`) VALUES ('$mail', '0');");

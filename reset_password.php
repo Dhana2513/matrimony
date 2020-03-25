@@ -31,7 +31,7 @@
 		$password = $_POST['pass'];
 		$conpassword = $_POST['conpass'];
 		if($password==$conpassword){
-			$sql = "UPDATE `gintama` SET `chabi` = ? WHERE `gintama`.`yahoo` = ?";
+			$sql = "UPDATE `users` SET `chabi` = ? WHERE `users`.`yahoo` = ?";
 			$stmt = mysqli_stmt_init($con);
 			if(!mysqli_stmt_prepare($stmt, $sql)){
 				echo "Sql statement failed!";

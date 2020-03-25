@@ -15,7 +15,7 @@
 	$msg="";
 	$error="";
 	if(isset($data1) && isset($data2)){
-		$qr = "SELECT * FROM gintama;";
+		$qr = "SELECT * FROM users;";
 		$rn = mysqli_query($con,$qr);
 		while($row = mysqli_fetch_array($rn)){
 			$db_mail = $row['yahoo'];
@@ -34,7 +34,7 @@
 				
 			}
 		}
-		/*$qr = "INSERT INTO `gintama` (`eyed`, `yahoo`, `chabi`) VALUES (NULL, 'nakib@gmail.com', '12345');";
+		/*$qr = "INSERT INTO `users` (`eyed`, `yahoo`, `chabi`) VALUES (NULL, 'nakib@gmail.com', '12345');";
 		$run = mysqli_query($con, $qr);*/
 	}
 		

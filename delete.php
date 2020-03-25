@@ -14,7 +14,7 @@
 		$q1 = mysqli_query($con, "DELETE FROM `biodata` WHERE `biodata`.`user` = '$user'");
 		$q2 = mysqli_query($con, "DELETE  FROM `comment` WHERE `comment`.`commenter` = '$user'"); 
 		$q3 = mysqli_query($con, "DELETE FROM `dp` WHERE `dp`.`user` = '$user'"); 
-		$q4 = mysqli_query($con, "DELETE FROM `gintama` WHERE `gintama`.`yahoo` = '$user'"); 
+		$q4 = mysqli_query($con, "DELETE FROM `users` WHERE `users`.`yahoo` = '$user'"); 
 		$q5 = mysqli_query($con, "DELETE  FROM `goppo` WHERE `goppo`.`user` = '$user'"); 
 		$q6 = mysqli_query($con, "DELETE  FROM `tipshoi` WHERE `tipshoi`.`mail` = '$user'"); 
 		$q7 = mysqli_query($con, "DELETE  FROM `pm` WHERE `pm`.`sender` = '$user'"); 

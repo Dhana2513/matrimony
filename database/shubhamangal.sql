@@ -144,20 +144,20 @@ INSERT INTO `following` (`id`, `post_id`, `comment_id`, `user`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `gintama`
+-- Table structure for table `users`
 --
 
-CREATE TABLE `gintama` (
+CREATE TABLE `users` (
   `eyed` int(11) NOT NULL,
   `yahoo` varchar(255) NOT NULL,
   `chabi` varchar(20) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `gintama`
+-- Dumping data for table `users`
 --
 
-INSERT INTO `gintama` (`eyed`, `yahoo`, `chabi`) VALUES
+INSERT INTO `users` (`eyed`, `yahoo`, `chabi`) VALUES
 (20, 'admin@admin.com', 'nimda654321'),
 (36, 'ajit.jadhav36@gmail.com', 'Admin@123'),
 (37, 'dishco2015@gmail.com', 'admin123');
@@ -319,9 +319,9 @@ ALTER TABLE `following`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `gintama`
+-- Indexes for table `users`
 --
-ALTER TABLE `gintama`
+ALTER TABLE `users`
   ADD PRIMARY KEY (`eyed`);
 
 --
@@ -383,9 +383,9 @@ ALTER TABLE `following`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT for table `gintama`
+-- AUTO_INCREMENT for table `users`
 --
-ALTER TABLE `gintama`
+ALTER TABLE `users`
   MODIFY `eyed` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
