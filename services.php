@@ -332,6 +332,7 @@
 		      <a href="faq.php" class="nav_content">Questions and Answers - FAQ</a>
 		    </div>
 		  </div> 
+		  <a href="membership/membership.php" class="nav_content">Membership</a>
 		  <a href="logout.php" class="nav_content"><i class="fa fa-power-off" aria-hidden="true"></i>Log out</a>
 		  <?php
 		  	}

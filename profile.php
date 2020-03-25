@@ -118,6 +118,7 @@ require_once('inc/top.php');
 						<a href="faq.php" class="nav_content">Questions and Answers - FAQ</a>
 					</div>
 				</div>
+				<a href="membership/membership.php" class="nav_content">Membership</a>
 				<a href="logout.php" class="nav_content"><i class="fa fa-power-off" aria-hidden="true"></i>Log out</a>
 				<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
 			</div>
@@ -866,7 +867,6 @@ require_once('inc/top.php');
 
 								<h5><span style="color:#7f7f7f;">Educational Qualifications:</span> </h5>
 
-								<?php if (!empty($jsc_year && $jsc_board)) { ?><h6><?php echo $jsc; ?>, <?php echo $jsc_year; ?>, <?php echo $jsc_board; ?></h6><?php } ?>
 
 								<?php if (!empty($ssc_year && $ssc_board)) { ?><h6><?php echo $ssc; ?>, <?php echo $ssc_year; ?>, <?php echo $ssc_board; ?></h6><?php } ?>
 								<?php if (!empty($hsc_year && $hsc_board)) { ?><h6><?php echo $hsc; ?>, <?php echo $hsc_year; ?>, <?php echo $hsc_board; ?></h6><?php } ?>
@@ -995,7 +995,6 @@ require_once('inc/top.php');
 
 								<h5><span style="color:#7f7f7f;">Educational Qualifications:</span> </h5>
 
-								<?php if (!empty($jsc_year && $jsc_board)) { ?><h6><?php echo $jsc; ?>, <?php echo $jsc_year; ?>, <?php echo $jsc_board; ?></h6><?php } ?>
 
 								<?php if (!empty($ssc_year && $ssc_board)) { ?><h6><?php echo $ssc; ?>, <?php echo $ssc_year; ?>, <?php echo $ssc_board; ?></h6><?php } ?>
 								<?php if (!empty($hsc_year && $hsc_board)) { ?><h6><?php echo $hsc; ?>, <?php echo $hsc_year; ?>, <?php echo $hsc_board; ?></h6><?php } ?>
